@@ -1,0 +1,1 @@
+This is an example of java beans for BIM 5th semester
