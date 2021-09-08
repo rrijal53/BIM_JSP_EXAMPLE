@@ -1,6 +1,6 @@
 package com.rowsun;
-
-public class Student {
+import java.io.*;
+public class Student implements Serializable {
     private String name;
     private String address;
 
@@ -27,4 +27,17 @@ public class Student {
     public void setAddress(String address) {
         this.address = address;
     }
+
+    public static void main(String[] args) {
+        Student obj = new Student();
+        s.setName("dsd");
+        s.setAddress("add");
+        s.getName();
+    }
+    public boolean save(){
+        //connect to db
+       //create insert query
+       //execute
+    }
+
 }
